@@ -19,6 +19,6 @@ It's worth noting that no matter how well you implement a brute force attack, it
 
 Note:
   All of these programs are parallel programs meaning they create multiple processes to complete the task faster.
-  The function call fork() that I use in these programs is an amazing utility but should be used with caution. 
+  The system call fork() that I use in these programs is an amazing utility but should be used with caution. 
   If you would like to start writing parallel programs, make sure you fully understand fork and use it in a controlled environment.
   You don't want to accidentally fork bomb a machine you don't own.
