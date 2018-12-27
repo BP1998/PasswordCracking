@@ -9,7 +9,7 @@ In my systems programming class, we were tasked with decoding an encrypted Linux
 We had to write this as a parallel program, using a single process would give you a 0 for the assignment.
 The program I turned in for the class is named Cracker.C and it accomplished the task required by the assignment, but I wasn't satisfied.
 
-I set out to write a better version on a password decoder. I wanted it to be more flexible and quicker. 
+I set out to write a better version of this password decoder. I wanted it to be more flexible and quicker. 
 This is where I came up with RCracker.C, which used a ripple carry method to get rid of the nested loops.
 I also implemented some more command line arguments to allow more flexibility.
 
